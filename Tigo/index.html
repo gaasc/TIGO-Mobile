@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- Version 0.0.0.0.0.2 del diseño de la pagina de tigo, aun con problemas de estructura!-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tigo Mobile</title>
+		<link rel="stylesheet" href="themes/Tigo.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile.structure-1.3.2.min.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	</head>
+	<body>
+		<div data-role="page" data-theme="a">
+			<div data-role="header" data-position="inline">
+				<img src="themes/images/tigo.png" style="max-width: 100%;height: auto"/>
+			</div>
+			<div data-role="content" data-theme="a">
+				<div data-role="content" data-theme="b">
+				 <form action="">
+					<div data-role="fieldcontain">
+						<label for="textinput1">
+				                    Numero
+				                </label>
+						<input name="" id="textinput1" placeholder="" value="" data-mini="true"type="text">
+					</div>
+					<div data-role="fieldcontain">
+					    <label for="textinput2">
+					        Contraseña
+					    </label>
+					    <input name="" id="textinput2" placeholder="" value="" type="text">
+					</div>
+					<div id="checkboxes1" data-role="fieldcontain">
+					    <fieldset data-role="controlgroup" data-type="vertical" style="text-align: center">
+					        <input id="checkbox1" name="" type="checkbox">
+					        <label for="checkbox1">
+					            Recordarme
+					        </label>
+					    </fieldset>
+					</div>
+					<input value="Submit" data-mini="true" type="submit">
+				</form>
+				</div>
+			</div>
+			</fieldset>
+			<div data-role="footer" data-theme="a">
+				<p style="text-align: center">Para propositos de evaluacion solamente</p>
+			</div>
+		</div>
+	</body>
+</html>
