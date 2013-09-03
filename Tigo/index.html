@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Version 0.0.0.0.0.1 del diseño de la pagina de tigo, aun con problemas de estructura!-->
+<!-- Version 0.0.0.0.0.2 del diseño de la pagina de tigo, aun con problemas de estructura!-->
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -16,31 +16,33 @@
 				<img src="themes/images/tigo.png" style="max-width: 100%;height: auto"/>
 			</div>
 			<div data-role="content" data-theme="a">
+				<div data-role="content" data-theme="b">
 				 <form action="">
 					<div data-role="fieldcontain">
 						<label for="textinput1">
 				                    Numero
 				                </label>
-	                <input name="" id="textinput1" placeholder="" value="" data-mini="true"type="text">
+						<input name="" id="textinput1" placeholder="" value="" data-mini="true"type="text">
+					</div>
+					<div data-role="fieldcontain">
+					    <label for="textinput2">
+					        Contraseña
+					    </label>
+					    <input name="" id="textinput2" placeholder="" value="" type="text">
+					</div>
+					<div id="checkboxes1" data-role="fieldcontain">
+					    <fieldset data-role="controlgroup" data-type="vertical" style="text-align: center">
+					        <input id="checkbox1" name="" type="checkbox">
+					        <label for="checkbox1">
+					            Recordarme
+					        </label>
+					    </fieldset>
+					</div>
+					<input value="Submit" data-mini="true" type="submit">
+				</form>
+				</div>
 			</div>
-			<div data-role="fieldcontain">
-			    <label for="textinput2">
-			        Contraseña
-			    </label>
-			    <input name="" id="textinput2" placeholder="" value="" type="text">
-			</div>
-			<div id="checkboxes1" data-role="fieldcontain">
-			    <fieldset data-role="controlgroup" data-type="vertical">
-			        <input id="checkbox1" name="" type="checkbox">
-			        <label for="checkbox1">
-			            Recordarme
-			        </label>
-			    </fieldset>
-			</div>
-			<input value="Submit" data-mini="true" type="submit">
-			</form>
-				
-			</div>
+			</fieldset>
 			<div data-role="footer" data-theme="a">
 				<p style="text-align: center">Para propositos de evaluacion solamente</p>
 			</div>
